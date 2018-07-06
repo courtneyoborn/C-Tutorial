@@ -1,30 +1,38 @@
 ﻿using System;
 
-public class WhileLoop
+namespace UdemyTutorial
 {
-	public WhileLoop()
-	{
-        bool flag = true;
-        int salary = 100;
-        Console.WriteLine($"I will give you {salary} dollars, ok?");
-
-        while (flag)
+    class WhileLoopSalaryNegotiator
+    {
+        static void Main(string[] args)
         {
-            string input = Console.ReadLine();
+            bool flag = true;
+            int salary = 100;
+            Console.WriteLine($"I will give you {salary} dollars, ok?");
 
-
-            if (input == "more")
+            while (flag)
             {
-                salary += 100;
-                Console.WriteLine($"I will give you {salary}, ok?");
-            }
+                string input = Console.ReadLine();
 
-            else if (input == "ok")
-            {
-                Console.WriteLine($"Your salary is {salary} dollars.");
-                flag = false;
 
+                if (input == "more")
+                {
+                    salary += 100;
+                    Console.WriteLine($"I will give you {salary} dollars, ok?");
+                }
+
+                else if (input == "ok")
+                {
+                    Console.WriteLine($"Your salary is {salary} dollars.");
+                    flag = false;
+
+                }
             }
         }
     }
 }
+
+
+
+
+

@@ -42,9 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\WhileLoop.cs">
-      <Link>WhileLoop.cs</Link>
-    </Compile>
     <Compile Include="Calculator.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Customer.cs" />

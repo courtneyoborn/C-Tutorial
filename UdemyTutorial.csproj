@@ -54,6 +54,8 @@
     <Compile Include="Stopwatch.cs" />
     <Compile Include="Text.cs" />
     <Compile Include="Vehicle.cs" />
+    <Compile Include="WhileLoop.cs" />
+    <Compile Include="WhileLoopInfiniteDivider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

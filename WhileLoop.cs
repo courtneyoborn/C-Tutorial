@@ -4,7 +4,7 @@ namespace UdemyTutorial
 {
     class WhileLoopSalaryNegotiator
     {
-        static void Main(string[] args)
+        static void PrintSalary()
         {
             bool flag = true;
             int salary = 100;
@@ -28,11 +28,8 @@ namespace UdemyTutorial
 
                 }
             }
+
         }
     }
 }
-
-
-
-
 

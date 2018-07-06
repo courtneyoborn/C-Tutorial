@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace UdemyTutorial
+namespace WhileLoop
 {
     class InfiniteDividor
     {
-        static void Main(string[] args)
+        public void PrintPowersOfTwo()
         {
             bool int1 = true;
             int input = int.Parse(Console.ReadLine());

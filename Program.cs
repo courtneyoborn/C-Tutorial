@@ -14,11 +14,14 @@ namespace UdemyTutorial
             string hashtag = "#";
             for (int i = 0; i < count; i++)
             {
-                for(int j=0; j <= i; ++j)
+                string answer = hashtag + "#";
+                for (int j=0; j <= i; ++j)
                 {
-                    Console.WriteLine(hashtag);
+                    
+                    Console.WriteLine(answer);
                 }
                 
+
             }
             
 

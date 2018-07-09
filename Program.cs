@@ -24,22 +24,23 @@ namespace UdemyTutorial
                     unhide = false;
                 }
             }
-            if(Console.ReadLine() == "game over")
+
+            while (!unhide)
             {
-                Console.WriteLine("run");
-                unhide = false;
-                while (!unhide)
+                if (Console.ReadLine() == "scan")
                 {
-                    if (Console.ReadLine() == "scan") 
-                    {
-                        Console.WriteLine("can't scan files for viruses");
-                    }
-                    else if(Console.ReadLine() == "unhide")
-                    {
-                        unhide = true;
-                    }
+                    Console.WriteLine("can't scan files for viruses");
+                }
+                else if (Console.ReadLine() == "unhide")
+                {
+                    unhide = true;
                 }
             }
+            if (Console.ReadLine() == "game over")
+            {
+                Console.WriteLine("run");
+            }
+                
 
         }
     }

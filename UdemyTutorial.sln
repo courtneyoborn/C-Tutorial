@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyTutorial", "UdemyTutorial\UdemyTutorial.csproj", "{E67B94B0-E52B-4A0F-867C-163320B47289}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6EAEA9F8-AC6D-4DF1-9E85-B447D35FAE59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyTutorial", "UdemyTutorial.csproj", "{E67B94B0-E52B-4A0F-867C-163320B47289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {82EDED49-8E10-4FBA-8EFF-FE671445FDA3}
+		SolutionGuid = {D230ACBF-80E8-4626-84D0-C644A7E8E611}
 	EndGlobalSection
 EndGlobal

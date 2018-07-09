@@ -11,37 +11,34 @@ namespace UdemyTutorial
         {
             int number = 0;
             bool unhide = true;
-            bool hide = false;
-            while(Console.ReadLine() == "scan")
+            while(unhide)
             {
                 if (Console.ReadLine() == "scan")
                 {
                     number++;
                     Console.WriteLine($"scanning file {number}");
                 }
-
+                
                 else if (Console.ReadLine() == "hide")
                 {
                     unhide = false;
-                    hide = true;
-                }  
+                }
             }
-
-            while (hide)
+            if(Console.ReadLine() == "game over")
             {
-                if (Console.ReadLine() == "hide")
+                Console.WriteLine("run");
+                unhide = false;
+                while (!unhide)
                 {
-                    if (Console.ReadLine() == "scan")
+                    if (Console.ReadLine() == "scan") 
                     {
                         Console.WriteLine("can't scan files for viruses");
                     }
-                            
+                    else if(Console.ReadLine() == "unhide")
+                    {
+                        unhide = true;
+                    }
                 }
-            }
-
-            if (Console.ReadLine() == "game over")
-            {
-                Console.WriteLine("run");
             }
 
         }

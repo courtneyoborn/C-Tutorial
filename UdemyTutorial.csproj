@@ -57,6 +57,7 @@
     <Compile Include="Vehicle.cs" />
     <Compile Include="WhileLoop.cs" />
     <Compile Include="WhileLoopInfiniteDivider.cs" />
+    <Compile Include="WhileLoopInsideAnotherWhileLoop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

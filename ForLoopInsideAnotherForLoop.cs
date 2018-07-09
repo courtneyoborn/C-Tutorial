@@ -4,7 +4,7 @@ namespace UdemyTutorial
 {
     class ForLoopInsideAnotherForLoop
     {
-        static void Main(string[] args)
+        static void Triangle()
         {
             int count = int.Parse(Console.ReadLine());
             string hashtag = "#";

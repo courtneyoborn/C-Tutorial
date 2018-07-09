@@ -45,6 +45,7 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="ForLoopInsideAnotherForLoop.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Point.cs" />
